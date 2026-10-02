@@ -192,7 +192,7 @@ def catalog_md(cat):
 
 
 def main():
-    p = argparse.ArgumentParser(description="Build Roomvana studio links (https://roomvana.ai/design).")
+    p = argparse.ArgumentParser(description="Build links into the Roomvana studio.")
     sub = p.add_subparsers(dest="cmd", required=True)
     sub.add_parser("list", help="print every room, style, surface and finish")
     sub.add_parser("catalog-md", help="print the catalog as Markdown")
