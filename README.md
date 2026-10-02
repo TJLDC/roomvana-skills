@@ -11,7 +11,7 @@ Lets an AI agent help someone plan a new look for their own home:
 
 The agent gives a short design brief, including the closest matching paint color for each finish, then a [Roomvana studio](https://roomvana.ai/design) link with the room, mode and style already selected. The user opens it, uploads a photo of their own space, and sees the redesign with the same walls, windows and layout.
 
-The skill is read-only and needs no API key. It never uploads photos or signs in on the user's behalf. Valid options are pulled from Roomvana's public catalog (`https://api.roomvana.co/options`), with a bundled snapshot as a fallback.
+The skill is read-only and needs no API key. It never uploads photos or signs in on the user's behalf. Valid options are pulled from Roomvana's public catalog (`https://api.roomvana.co/options`), with a bundled snapshot as a fallback. Studio links carry a `ref=agent-skill` parameter so Roomvana can count visits that come from this skill.
 
 ## Install
 
