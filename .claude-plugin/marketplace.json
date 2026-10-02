@@ -1,0 +1,22 @@
+{
+  "name": "roomvana",
+  "owner": { "name": "Roomvana", "url": "https://roomvana.ai" },
+  "metadata": {
+    "description": "Home design skills from Roomvana (https://roomvana.ai).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "roomvana",
+      "source": "./",
+      "description": "Plan a new look for a house, yard, or room, then open Roomvana (https://roomvana.ai) with the options already picked.",
+      "version": "0.1.0",
+      "author": { "name": "Roomvana", "url": "https://roomvana.ai" },
+      "homepage": "https://roomvana.ai",
+      "repository": "https://github.com/TJLDC/roomvana-skills",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["interior-design", "home-design", "exterior-design", "landscape-design", "virtual-staging"]
+    }
+  ]
+}

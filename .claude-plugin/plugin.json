@@ -1,0 +1,10 @@
+{
+  "name": "roomvana",
+  "version": "0.1.0",
+  "description": "Plan a new look for a house, yard, or room, then open Roomvana (https://roomvana.ai) with the options already picked: exterior colors, landscaping, interior redesigns, paint and cabinet colors, and virtual staging.",
+  "author": { "name": "Roomvana", "url": "https://roomvana.ai" },
+  "homepage": "https://roomvana.ai",
+  "repository": "https://github.com/TJLDC/roomvana-skills",
+  "license": "MIT",
+  "keywords": ["interior-design", "home-design", "exterior-design", "landscape-design", "paint-colors", "virtual-staging", "roomvana"]
+}
